@@ -121,8 +121,8 @@
 /* part 5 */
 .bunch{
   background-image: url(../assets/news-letter-bg.png);
-  width: 100%;
-  height: auto;
+  background-size: cover;
+  
 }
 .bunch-title {
   text-align: center;
@@ -132,32 +132,38 @@
   font-size: 3rem;
   font-weight: bold;
 }
-/* footer */
 .input{
   text-align: center;
   align-items: center;
   justify-content: center;
-   max-width: 1140px;
-    margin: 0 auto;
-    margin-top: 162px;
+  padding:10px;
 }
+/* footer part */
 .last-part{
-   max-width: 1140px;
+   max-width: 1440px;
     margin: 30px auto;
     justify-content: space-between;
+    padding: auto;
+    gap: auto;
 }
 .list1,.list2{
   text-decoration: none;
   list-style: none;
-  gap: 10;
-  margin-bottom: 10px;
-  margin-top: 20px;
+
+
 }
+
 .description{
   font-size: 1.5rem;
   font-weight: 400;
   height: auto;
 }
+.footer-img{
+  width: 36px;
+  height: 36px;
+  gap: 24px;
+}
+
 
 /* responsive query */
 
