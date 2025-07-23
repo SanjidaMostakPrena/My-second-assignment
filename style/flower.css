@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* sharded style */
+.display-flex{
+    display: flex;
+}
+/* color */
+.text-black{
+    color:rgba(0, 0, 0, 1) ;
+}
+.text-gray{
+    color:rgba(137, 135, 161, 1) ;
+}
+.text-white{
+    color: rgba(255, 255, 255, 1);
+}
+.text-orange{
+    color:rgba(233, 90, 8, 1) ;
+}
+/* navbar styles */
+.logo{
+  height: 50px;    
+  width: auto;
+}
+
+.nav-links{
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-item{
+    list-style:none;
+}
+.nav-bar{
+    max-width: 1140px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 162px;
+}
+.banner-description{
+    justify-content: center;
+    align-items: center;
+    max-width: 570px;
+    font-size: 1.8rem;
+    font-weight: 700px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.our-plant{
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.ourplant-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.ourplant-description {
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+.flower-img {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 48;
+}
+
+.image{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+  width: auto;
+}
+
+.flower-card {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
+.flower-card img {
+  width: 100%;
+  height: auto;
+  gap: ;
+}
+.primary-btn{
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700px;
+  border: none;
+  width: 100%;
+  height: 50px; ;
+}
+/* responsive query */
+
+@media screen and (max-width: 576px) {
+  .nav-bar,
+  .nav-links,
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .flower-card {
+    margin: 0 auto;
+
+  }
+}
