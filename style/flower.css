@@ -57,7 +57,11 @@
 }
 .banner-container{
   text-align: left;
-  align-items: end;
+  flex: 1;
+}
+.banner-image {
+  flex: 1;
+  text-align: right;
 }
 .banner-description{
     justify-content: center;
@@ -154,7 +158,7 @@
 }
 .plantclass{
   text-align: left;
-}
+} 
 /* latest deals */
 
 .discount-section {
@@ -308,18 +312,36 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* responsive query */
+@media screen and (max-width: 1023px) and (min-width: 577px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 40px;
+  }
+
+  .banner img {
+    width: 70%;
+    max-width: 300px;
+    margin: 30px auto 0;
+  }
+
+  .image {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .discount-section {
+    padding: 50px 30px;
+  }
+
+  .discount-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+
 @media screen and (max-width: 576px) {
   .nav-bar {
     display: flex;
@@ -344,62 +366,48 @@
     display: none;
   }
 
-
-
-
- .banner {
-    display: flex;
+  .banner {
+    text-align: left;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     padding: 20px;
   }
-  @media screen and (max-width: 576px) {
+
   .banner-title {
     font-size: 1.8rem;
-    text-align: center;
     line-height: 1.3;
   }
 
   .banner-description {
     font-size: 1rem;
-    text-align: center;
     margin-top: 8px;
     padding: 0 10px;
   }
 
   .banner img {
-    width: 90%;
+    text-align: center;
+    width: 100%;
     max-width: 240px;
     height: auto;
-    margin: 20px auto 0;
-    display: block;
+    margin: 0 auto ;
+   
   }
 
-  .banner {
-    flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-  }
   .ourplant-title,
   .bunch-title,
   .plantlover-title {
     font-size: 1.5rem;
-    text-align: center;
     line-height: 1.3;
   }
 
   .ourplant-description,
   .listitem {
     font-size: 1rem;
-    text-align: center;
     padding: 0 10px;
   }
 
   .image {
-    grid-template-columns:repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
 
@@ -414,14 +422,16 @@
     text-align: center;
     gap: 20px;
     padding: 0 10px;
+   
   }
 
   .plantimg {
     width: 100%;
     height: auto;
     max-width: 300px;
+
   }
- 
+
   .discount-section {
     padding: 40px 15px;
   }
@@ -455,7 +465,7 @@
   .overlay p {
     font-size: 1rem;
   }
-  
+
   .bunch {
     padding: 40px 20px;
     text-align: center;
@@ -468,31 +478,29 @@
 
   .input-group {
     display: flex;
-    flex-direction: row; 
-    gap: 10px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
   .email {
-    flex: 1;         
-    min-width: 0;    
+    flex: 1;
+    min-width: 0;
     height: 45px;
     font-size: 1rem;
     padding-left: 10px;
   }
 
   .btn {
-    width: 120px;     
+    width: 120px;
     height: 45px;
     font-size: 1rem;
   }
 
-
   .footer-img {
     justify-content: center;
     margin-top: 20px;
-   
+    display: flex;
   }
 
   .last-part {
@@ -502,16 +510,9 @@
     text-align: center;
   }
 
-  .list1, .list2 {
-    align-items:center;
-    flex-direction: column
-}
+  .list1,
+  .list2 {
+    align-items: center;
+    flex-direction: column;
   }
-
-
-
-
-
-
-  
-
+}
