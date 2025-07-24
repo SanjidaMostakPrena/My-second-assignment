@@ -14,7 +14,7 @@
     color:rgba(0, 0, 0, 1) ;
 }
 .text-gray{
-    color:rgba(137, 135, 161, 1) ;
+    color:rgba(0, 0, 0, 0.5);
 }
 .text-white{
     color: rgba(255, 255, 255, 1);
@@ -58,7 +58,7 @@
 .banner-description{
     justify-content: center;
     align-items: center;
-    max-width: 570px;
+    max-width: 590px;
     font-size: 1.8rem;
     font-weight: 700px;
 }
@@ -69,7 +69,7 @@
 /* part 2 */
 .our-plant{
     max-width: 800px;
-    margin: 100px auto;
+     margin: 100px auto;
     text-align: center;
     padding: 0 20px;
 
@@ -81,6 +81,7 @@
 .ourplant-description {
     font-size: 2rem;
     font-weight: 400;
+
     
 }
 
@@ -107,7 +108,7 @@
 .flower-card img {
   width: 100%;
   height: auto;
-  gap: ;
+
 }
 .primary-btn{
   background-color: rgba(255, 144, 14, 1);
@@ -118,46 +119,95 @@
   width: 100%;
   height: 50px; ;
 }
+/* part 3 */
+.trusted-badge{
+  width: 280px;
+  height: 280px;
+   margin-left: -200px;
+   margin-top: -130px;
+  
+}
+
+.flowerplant{
+ max-width: 1140px;
+ margin: 30px auto;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 210px;
+}
+.plantlover-title{
+  font-size: 3rem;
+  font-weight: bold;
+ 
+}
+.listitem{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.plantimg{
+  width: 540px;
+  height: 590px;
+   
+}
+.plantclass{
+  text-align: left;
+}
+
+
+ 
 /* part 5 */
 .bunch{
   background-image: url(../assets/news-letter-bg.png);
-  background-size: cover;
+  max-width: 1440px;
+  margin: 30px auto;
+  margin-top: 120px;
   
 }
 .bunch-title {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 190px 0;
   font-size: 3rem;
   font-weight: bold;
 }
 .input{
   text-align: center;
-  align-items: center;
   justify-content: center;
-  padding:10px;
+  align-items: center;
+  padding: 150px 0;
+  
+}
+
+.btn{
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+  width: 186px;
+  height: 50px; 
+  font-size: 1rem;
+  font-weight: 600;
+}
+.email{
+  width: 644px;
+  height: 50px; 
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 20px;
 }
 /* footer part */
+.footer{
+   max-width: 1140px;
+   margin: 0px auto ;
+}
 .last-part{
-   max-width: 1440px;
-    margin: 30px auto;
     justify-content: space-between;
-    padding: auto;
-    gap: auto;
+  
 }
 .list1,.list2{
   text-decoration: none;
   list-style: none;
-
-
-}
-
-.description{
-  font-size: 1.5rem;
+   font-size: 1.375rem;
   font-weight: 400;
-  height: auto;
+
 }
+
 .footer-img{
   width: 36px;
   height: 36px;
