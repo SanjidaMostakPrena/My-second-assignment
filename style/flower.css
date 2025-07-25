@@ -53,7 +53,7 @@
 .banner{
     max-width: 1140px;
     margin: 0 auto;
-    margin-top: 162px;
+    margin-top: 5px;
 }
 .banner-container{
   text-align: left;
@@ -137,7 +137,7 @@
  margin: 30px auto;
     justify-content: space-between;
     gap: 60px;
-    margin-top: 210px;
+    margin-top: 30px;
 }
 .plantlover-title{
   font-size: 3rem;
@@ -165,7 +165,7 @@
 .discount-section {
   max-width: 1140px;
     margin: 0 auto;
-    margin-top: 162px;
+    margin-top: 50px;
 
 }
 .discount-header {
@@ -228,7 +228,7 @@
   background-image: url(../assets/news-letter-bg.png);
   max-width: 1440px;
   margin: 30px auto;
-  margin-top: 120px;
+  margin-top: 20px;
   
 }
 .bunch-title {
@@ -273,8 +273,9 @@
 /* footer part */
 .footer {
   max-width: 1140px;
-  margin: 0 auto;
+ margin: 0 auto;
   padding: 40px 20px;
+
 }
 
 .last-part {
@@ -303,7 +304,7 @@
   display: flex;
   gap: 24px;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .footer-img img {
