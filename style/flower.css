@@ -307,7 +307,7 @@
   display: flex;
   gap: 24px;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 300px;
 }
 
 .footer-img img {
@@ -472,7 +472,6 @@
 
   .card {
     height: 150px;
-
   }
 
   .overlay p {
